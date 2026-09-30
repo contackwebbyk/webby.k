@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Webby.k — nowoczesne strony internetowe dla lokalnych firm." />
+  <title>Webby.k — strony internetowe dla lokalnych firm</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="logo" href="#start" aria-label="Webby.k — strona główna">Webby<span>.k</span></a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Otwórz menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#realizacje">Realizacje</a>
+        <a href="#proces">Jak działam</a>
+        <a href="#oferta">Oferta</a>
+        <a href="#omnie">O mnie</a>
+        <a class="nav-cta" href="#kontakt">Darmowa wizualizacja</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="start">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">WEBBY.K • STRONY INTERNETOWE</p>
+          <h1>Nowoczesne strony internetowe <span>dla lokalnych firm.</span></h1>
+          <p class="hero-copy">
+            Projektuję szybkie, przejrzyste i responsywne strony, które wyglądają profesjonalnie
+            i pomagają zamieniać odwiedzających w klientów.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#kontakt">Zamów darmową wizualizację</a>
+            <a class="btn btn-secondary" href="#realizacje">Zobacz realizacje</a>
+          </div>
+
+          <div class="hero-points">
+            <span>✓ Responsywna strona</span>
+            <span>✓ Nowoczesny wygląd</span>
+            <span>✓ Bez zbędnego technicznego chaosu</span>
+          </div>
+        </div>
+
+        <div class="browser-card" aria-hidden="true">
+          <div class="browser-top">
+            <div class="dots"><i></i><i></i><i></i></div>
+            <div class="browser-url">twojafirma.pl</div>
+          </div>
+          <div class="browser-body">
+            <div class="mock-nav"></div>
+            <div class="mock-hero">
+              <span class="mock-chip"></span>
+              <span class="mock-title"></span>
+              <span class="mock-title short"></span>
+              <span class="mock-text"></span>
+              <span class="mock-text short"></span>
+              <span class="mock-button"></span>
+            </div>
+            <div class="mock-cards">
+              <i></i><i></i><i></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="realizacje">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">REALIZACJE</p>
+            <h2>Strony, które nie wyglądają jak z 2011 roku.</h2>
+          </div>
+          <p class="section-copy">Jeden konkretny projekt, zamiast dziesięciu wymyślonych logotypów i stockowych “case studies”.</p>
+        </div>
+
+        <article class="project-card">
+          <div class="project-visual">
+            <div class="car-card">
+              <div class="car-brand">KACPER</div>
+              <div class="car-brand accent">DETAILING</div>
+              <div class="car-line"></div>
+              <span>PREMIUM CAR CARE</span>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <span class="badge">REALIZACJA</span>
+            <h3>Kacper Detailing</h3>
+            <p>
+              Ciemna, premium strona dla lokalnego detailera. Oferta, realizacje, formularz kontaktowy,
+              opinie klientów i pełna wersja mobilna.
+            </p>
+
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span>
+            </div>
+
+            <div class="project-actions">
+              <button class="btn btn-primary" type="button" data-modal-open>Podgląd projektu</button>
+              <a class="btn btn-secondary" href="#kontakt">Chcę podobną stronę</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt" id="proces">
+      <div class="container">
+        <div class="section-head narrow">
+          <div>
+            <p class="eyebrow">JAK TO DZIAŁA</p>
+            <h2>Prosto. Bez robienia z budowy strony misji NASA.</h2>
+          </div>
+        </div>
+
+        <div class="steps">
+          <article>
+            <span>01</span>
+            <h3>Darmowa wizualizacja</h3>
+            <p>Najpierw pokazuję Ci kierunek wyglądu strony, zanim przejdziemy dalej.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Akceptacja</h3>
+            <p>Ustalamy treści, sekcje i poprawki. Wiesz, za co płacisz.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Budowa strony</h3>
+            <p>Tworzę wersję komputerową i mobilną oraz podpinam najważniejsze funkcje.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Publikacja</h3>
+            <p>Po finalnej akceptacji strona leci online i może zbierać klientów.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="oferta">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">OFERTA</p>
+            <h2>Strona dopasowana do firmy, nie kolejny gotowiec.</h2>
+          </div>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card featured">
+            <span class="badge">NAJCZĘŚCIEJ WYBIERANE</span>
+            <h3>Strona firmowa</h3>
+            <div class="price">700 zł</div>
+            <p>Kompletna strona dla małej lub lokalnej firmy.</p>
+            <ul>
+              <li>✓ indywidualny wygląd</li>
+              <li>✓ wersja na telefon</li>
+              <li>✓ sekcja oferty i realizacji</li>
+              <li>✓ formularz kontaktowy</li>
+              <li>✓ podstawowe SEO</li>
+            </ul>
+            <a class="btn btn-primary full" href="#kontakt">Zamów wizualizację</a>
+          </article>
+
+          <article class="price-card">
+            <span class="badge muted">OPIEKA</span>
+            <h3>Utrzymanie strony</h3>
+            <div class="price">150 zł <small>/ mies.</small></div>
+            <p>Dla firm, które chcą mieć kogoś pod ręką do drobnych zmian i szybkiej pomocy.</p>
+            <ul>
+              <li>✓ do 2 drobnych poprawek miesięcznie</li>
+              <li>✓ zmiany tekstów i zdjęć</li>
+              <li>✓ szybka pomoc techniczna</li>
+              <li>✓ większe zmiany wyceniane osobno</li>
+            </ul>
+            <a class="btn btn-secondary full" href="#kontakt">Zapytaj o opiekę</a>
+          </article>
+        </div>
+
+        <div class="corrections-note">
+          <div>
+            <span class="badge muted">BEZ ABONAMENTU</span>
+            <h3>Potrzebujesz tylko jednej poprawki?</h3>
+            <p>Nie musisz brać opieki miesięcznej. Drobne zmiany po publikacji, np. podmiana tekstu, zdjęcia albo danych kontaktowych, mogę zrobić jednorazowo.</p>
+          </div>
+          <div class="correction-price">od 50 zł <small>/ poprawka</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="omnie">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">O WEBBY.K</p>
+          <h2>Małe firmy też zasługują na dobrą stronę.</h2>
+        </div>
+        <div>
+          <p>
+            Webby.k powstało po to, żeby lokalne firmy mogły mieć nowoczesną stronę bez przepłacania
+            za wielką agencję i bez grzebania tygodniami w kreatorach.
+          </p>
+          <p>
+            Stawiam na prosty proces, przejrzysty kontakt i stronę, którą klient naprawdę chce pokazać ludziom.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="kontakt">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">KONTAKT</p>
+          <h2>Zobacz, jak może wyglądać strona Twojej firmy.</h2>
+          <p class="section-copy">
+            Napisz kilka zdań o firmie. Na tej podstawie można przygotować kierunek darmowej wizualizacji.
+          </p>
+        </div>
+
+        <form class="contact-form" action="https://formspree.io/f/xgaelvgr" method="POST" id="contactForm">
+          <input type="hidden" name="_subject" value="Nowe zapytanie z portfolio Webby.k" />
+
+          <label>
+            Imię / nazwa firmy
+            <input type="text" name="name" required autocomplete="name" placeholder="np. Auto Serwis Kowalski" />
+          </label>
+
+          <label>
+            E-mail
+            <input type="email" name="email" required autocomplete="email" placeholder="kontakt@firma.pl" />
+          </label>
+
+          <label>
+            Czego potrzebujesz?
+            <select name="service" required>
+              <option value="">Wybierz</option>
+              <option>Nowa strona firmowa</option>
+              <option>Odświeżenie starej strony</option>
+              <option>Opieka nad stroną</option>
+              <option>Inne</option>
+            </select>
+          </label>
+
+          <label>
+            Wiadomość
+            <textarea name="message" rows="5" required placeholder="Napisz czym zajmuje się firma i czego potrzebujesz."></textarea>
+          </label>
+
+          <button class="btn btn-primary full" type="submit">Wyślij zapytanie</button>
+          <p class="form-note" id="formNote">Formularz wysyła wiadomość przez Formspree.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <a class="logo" href="#start">Webby<span>.k</span></a>
+      <p>© 2026 Webby.k. Wszystkie prawa zastrzeżone.</p>
+      <a href="#start">Do góry ↑</a>
+    </div>
+  </footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-modal-close></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" aria-label="Zamknij" data-modal-close>×</button>
+      <span class="badge">KACPER DETAILING</span>
+      <h2 id="modalTitle">Projekt strony detailingowej</h2>
+      <p>
+        Dark premium, responsywny układ, oferta, realizacje, formularz kontaktowy,
+        Instagram i sekcja opinii klientów.
+      </p>
+      <div class="modal-list">
+        <span>Mycie detailingowe od 150 zł</span>
+        <span>Detailing wnętrza od 250 zł</span>
+        <span>Polerowanie lakieru od 400 zł</span>
+      </div>
+      <a class="btn btn-primary full" href="https://www.instagram.com/kacper_detaling/" target="_blank" rel="noopener noreferrer">
+        Instagram Kacper Detailing ↗
+      </a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
